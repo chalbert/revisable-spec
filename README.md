@@ -7,7 +7,7 @@ Defines an interface that JavaScript objects can implement to handle revisions.
 - The `rev` Global Symbol property MUST specify the current revision of an object.
 - The `rev` Global Symbol property MAY be `null` if no revision exist.
 - The current state of the object MAY be different to the last commmited value. For example, committing could be throttled, or only done when the changes are deemed valid.
-- 
+
 
 ## Global Symbols
 
